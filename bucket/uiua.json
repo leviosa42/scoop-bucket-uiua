@@ -1,0 +1,21 @@
+{
+    "version": "0.14.1",
+    "description": "A stack-based array programming language",
+    "homepage": "https://www.uiua.org",
+    "license": "MIT License",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/uiua-lang/uiua/releases/download/0.14.1/uiua-bin-x86_64-pc-windows-msvc.zip",
+            "hash": "bfc93acf8502cfe513ac7090df952915c6a220db6e111fdbb7175aadb7d5d715"
+        }
+    },
+    "bin": "uiua.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/uiua-lang/uiua/releases/download/$version/uiua-bin-x86_64-pc-windows-msvc.zip"
+            }
+        }
+    }
+}
